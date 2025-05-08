@@ -1,2 +1,5 @@
 #Virtual environment
 .lis
+
+# Data folder
+src/data
