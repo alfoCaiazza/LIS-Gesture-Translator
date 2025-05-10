@@ -3,3 +3,7 @@
 
 # Data folder
 src/data
+
+# Logs
+src/logs
+src/model
