@@ -7,4 +7,4 @@ src/data
 # Logs
 src/logs
 src/model
-src/tuner_logs
+src/script/logs/
