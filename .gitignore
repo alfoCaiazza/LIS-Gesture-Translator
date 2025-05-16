@@ -5,6 +5,5 @@
 src/data
 
 # Logs
-src/logs
 src/model
 src/script/logs/
