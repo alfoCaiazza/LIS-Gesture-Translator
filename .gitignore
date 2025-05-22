@@ -7,3 +7,4 @@ src/data
 # Logs
 src/model
 src/script/logs/
+src/script/logs_lm_model/
