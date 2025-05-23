@@ -5,10 +5,10 @@ from tqdm import tqdm
 from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
 
-dataset_dir = 'src/data/LIS-fingerspelling-dataset'
-output_dir = 'src/data/landmarked'  # Directory dove salvare il CSV
+dataset_dir = 'src/data/processed/augmented_plus'
+output_dir = 'src/data/landmarked' 
 os.makedirs(output_dir, exist_ok=True)
-csv_path = 'landmarked_dataset.csv'  # Percorso completo del CSV
+csv_path = 'landmarked_dataset_plus.csv'  # Percorso completo del CSV
 
 # === MediaPipe Initialization ===
 BaseOptions = mp.tasks.BaseOptions
@@ -17,7 +17,7 @@ HandLandmarkerOptions = mp.tasks.vision.HandLandmarkerOptions
 VisionRunningMode = mp.tasks.vision.RunningMode
 
 # Create a hand landmarker instance with the image mode:
-base_options = python.BaseOptions(model_asset_path='/home/acaia/LIS/LIS-Gesture-Translator/hand_landmarker.task')
+base_options = python.BaseOptions(model_asset_path='hand_landmarker.task')
 options = vision.HandLandmarkerOptions(
     base_options=base_options,
     num_hands=2,  # Rileva fino a 2 mani
