@@ -5,7 +5,6 @@
 src/data
 
 # Logs
-src/logs
 src/model
 src/script/logs/
-src/script/logs_ml_model/
+src/script/logs_lm_model/
