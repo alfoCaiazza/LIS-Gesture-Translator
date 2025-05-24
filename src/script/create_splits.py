@@ -3,8 +3,8 @@ import random
 import shutil
 from sklearn.model_selection import train_test_split
 
-dataset_dir = 'src/data/LIS-fingerspelling-dataset'
-output_dir = 'src/data/processed'
+dataset_dir = 'src/data/processed/augmented_plus_II'
+output_dir = 'src/data/processed/new_splits'
 
 classes = os.listdir(dataset_dir)
 os.makedirs(output_dir, exist_ok=True)
