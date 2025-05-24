@@ -5,7 +5,10 @@
 src/data
 
 # Logs
-src/logs
 src/model
 src/script/logs/
+<<<<<<< HEAD
 src/script/logs_lm_model/*
+=======
+src/script/logs_lm_model/
+>>>>>>> 079f69a5d321094f185305a35e9fc1d9c7e48c50
